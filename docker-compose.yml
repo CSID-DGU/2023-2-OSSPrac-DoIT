@@ -1,8 +1,5 @@
-version: '3'
-
-services:
-  app:
-    build: .
-    image: juwonchoe/flask:3.0
-    ports:
-      - "8080:80"
+version: "3.0"
+services: 
+ app:
+  image: suhyunkim728/flask:3.0
+  build: .
